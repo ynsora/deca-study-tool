@@ -39,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               { href: "/exams", label: "Exams" },
               { href: "/flashcards", label: "Flashcards" },
               { href: "/roleplay", label: "Roleplay" },
+              { href: "/quiz", label: "Event Finder" },
               { href: "/about", label: "About CK DECA" },
             ].map((link) => (
               <Link
@@ -73,6 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <Link href="/exams" className="hover:text-white transition-colors cursor-pointer">Past Exams</Link>
                     <Link href="/flashcards" className="hover:text-white transition-colors cursor-pointer">Flashcards</Link>
                     <Link href="/roleplay" className="hover:text-white transition-colors cursor-pointer">Roleplay</Link>
+                    <Link href="/quiz" className="hover:text-white transition-colors cursor-pointer">Event Finder</Link>
                     <Link href="/about" className="hover:text-white transition-colors cursor-pointer">About CK DECA</Link>
                   </div>
                 </div>
