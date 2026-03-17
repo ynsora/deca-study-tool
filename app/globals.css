@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --orange: #f97316;
+  --orange-dark: #ea580c;
+  --bg: #080808;
+  --surface: #111111;
+  --border: #222222;
+  --border-hover: #f97316;
+  --text-muted: #666666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: #ffffff;
+  font-family: inherit;
+}
+
+/* Thin orange scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--orange-dark);
+}

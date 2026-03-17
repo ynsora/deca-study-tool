@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"taskkill /F /PID 5912\")",
+      "Bash(npm run:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
